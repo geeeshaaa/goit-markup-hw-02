@@ -132,6 +132,9 @@ a:focus {
 .team-items {
   background-color: var(--white);
 }
+.team-item{
+    background-color: var(--white);
+}
 .photo-title {
   font-weight: 500;
   font-size: 20px;
@@ -162,7 +165,7 @@ a:focus {
 .portfolio-items{
     background-color: var(--white);
 }
-.portfolio-item {
+.portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
