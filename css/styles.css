@@ -43,7 +43,7 @@ a:focus {
   color: var(--iris);
 }
 .logo-nb {
-  color: var(--cloud);
+  color: var(--navy-blue);
 }
 
 .header-menu {
@@ -159,6 +159,9 @@ a:focus {
   color: var(--navy-blue);
   text-transform: capitalize;
 }
+.portfolio-items{
+    background-color: var(--white);
+}
 .portfolio-item {
   font-weight: 500;
   font-size: 20px;
@@ -176,7 +179,9 @@ a:focus {
 .footer-studio {
   background-color: var(--navy-blue);
 }
-
+.logo-ftr{
+    color: var(--cloud);
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
