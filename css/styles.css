@@ -2,37 +2,47 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
-  --white: #ffffff;
+  --green: #31d0aa;
   --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
+
 body {
-  font-family: "Raleway", "Roboto", sans-serif;
+  font-family: var(--font-family);
   color: var(--slate);
+  background-color: var(--white);
 }
 li {
   list-style-type: none;
 }
 a:hover {
-    color: var(--iris);
+  color: var(--iris);
 }
 a:focus {
-    color: var(--iris);
+  color: var(--iris);
 }
 .header {
 }
 .logo {
+  font-family: var(--second-family);
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.logo-iris {
   color: var(--iris);
 }
-.logo-navy {
+.logo-nb {
   color: var(--navy-blue);
 }
 
@@ -45,6 +55,7 @@ a:focus {
   color: var(--navy-blue);
 }
 .header-contacts {
+  font-style: normal;
 }
 .header-contact {
   text-decoration: none;
@@ -55,6 +66,7 @@ a:focus {
 }
 
 .solutions {
+  background-color: var(--navy-blue);
 }
 .main-title {
   background: var(--navy-blue);
@@ -67,6 +79,7 @@ a:focus {
 }
 
 .main-btn {
+  font-family: var(--font-family);
   background: var(--iris);
   font-weight: 500;
   font-size: 16px;
@@ -74,6 +87,12 @@ a:focus {
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+}
+.main-btn:hover{
+background-color: var(--ocean);
+}
+.main-btn:focus{
+    background-color: var(--ocean);
 }
 .main-studio {
 }
@@ -92,14 +111,19 @@ a:focus {
 }
 
 .team {
+    background-color: var(--cloud);
 }
 .team-title {
+    text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+}
+.team-item{
+    background-color: var(--white);
 }
 .photo-title {
   font-weight: 500;
@@ -122,10 +146,11 @@ a:focus {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+  text-transform: capitalize;
 }
 .portfolio-item {
   font-weight: 500;
@@ -142,6 +167,7 @@ a:focus {
 }
 
 .footer-studio {
+    background-color: var(--navy-blue);
 }
 
 .footer-text {
