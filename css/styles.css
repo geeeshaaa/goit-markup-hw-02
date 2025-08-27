@@ -54,6 +54,13 @@ a:focus {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+.header-menu:hover {
+  color: var(--ocean);
+}
+.header-menu:focus {
+  color: var(--ocean);
+}
+
 .header-contacts {
   font-style: normal;
 }
@@ -88,11 +95,11 @@ a:focus {
   color: var(--white);
   cursor: pointer;
 }
-.main-btn:hover{
-background-color: var(--ocean);
+.main-btn:hover {
+  background-color: var(--ocean);
 }
-.main-btn:focus{
-    background-color: var(--ocean);
+.main-btn:focus {
+  background-color: var(--ocean);
 }
 .main-studio {
 }
@@ -111,10 +118,10 @@ background-color: var(--ocean);
 }
 
 .team {
-    background-color: var(--cloud);
+  background-color: var(--cloud);
 }
 .team-title {
-    text-transform: capitalize;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -122,8 +129,8 @@ background-color: var(--ocean);
   text-align: center;
   color: var(--navy-blue);
 }
-.team-item{
-    background-color: var(--white);
+.team-item {
+  background-color: var(--white);
 }
 .photo-title {
   font-weight: 500;
@@ -167,7 +174,7 @@ background-color: var(--ocean);
 }
 
 .footer-studio {
-    background-color: var(--navy-blue);
+  background-color: var(--navy-blue);
 }
 
 .footer-text {
