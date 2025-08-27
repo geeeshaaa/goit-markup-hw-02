@@ -25,10 +25,10 @@ li {
   list-style-type: none;
 }
 a:hover {
-  color: var(--iris);
+  color: var(--ocean);
 }
 a:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 .header {
 }
@@ -43,7 +43,7 @@ a:focus {
   color: var(--iris);
 }
 .logo-nb {
-  color: var(--navy-blue);
+  color: var(--cloud);
 }
 
 .header-menu {
@@ -129,7 +129,7 @@ a:focus {
   text-align: center;
   color: var(--navy-blue);
 }
-.team-item {
+.team-items {
   background-color: var(--white);
 }
 .photo-title {
